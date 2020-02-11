@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>problema</title>
+</head>
+
+<body>
+	<style type="text/css">
+		h1
+		{
+			color: #ff0000;
+			text-align:left;
+			text-decoration:underline;
+		} 
+		h2
+		{
+			color:#dd0000;
+			text-align:center;
+			text-decoration:underline; 
+		}
+		h3
+		{
+			color:#aa0000;
+			text-align:right;
+			text-decoration:underline; 
+		}
+		p
+		{
+			text-indent:20px;
+		}
+		.resaltado
+		{
+			color:#000000;
+			background-color:#ffff00;
+			font-style:italic;
+		}
+		#luismiputoAmo
+		{
+			text-align: center;
+			width: 450px;
+			border-style: solid;
+			border-width: 0px 1px 1px 1px;
+			font-family: Constantia;
+			font-size: 18px;
+			background-color: #3125EC;
+		}
+		#eljava
+		{
+			width: 4500px;
+			border-style: solid;
+			font-family: Constantia;
+			font-size: 20px;
+			background-color: #F3FF00;
+			padding: 20px;
+		}
+		body
+		{
+			background: url(https://i.imgur.com/dEe9aO6.jpg);
+			border-image-repeat: repeat-y;
+		}
+		#bg1
+		{
+			background-color: #3125EC;
+		}
+	</style>
+	<div id="luismiputoAmo">
+		prueba bloque div
+
+		<dl>
+			<dt>Palabra a definir</dt>
+			<dd>definicion</dd>
+		</dl>
+	</div>
+<h1 id="resaltado">Titulo de nivel 1</h1>
+<h2 >Titulo de nivel 2</h2>
+<h3>Titulo de nivel 3</h3>
+
+<dl>
+	<dt>Palabra a definir</dt>
+	<dd>definicion</dd>
+</dl>
+<div id="eljava">
+	<pre>
+		while (j<numTerm) //bucle 
+			{
+				resul=resul+Integer.toString(ter)+","; //resul=nada+n1+, == ejemplo(resul=nada+1,) -> cuando se vuelve a hacer seria resul = 1,
+				ter+=difTerm;
+				j++;
+				if(j==numTerm) //cuando sea igual que pare de hacer el bucle para que no genere mas lineas y que lo imprima
+				{
+					LocalDate fecha = LocalDate.now(); 
+					LocalTime hora = LocalTime.now();
+					progre[0]=resul+ " **** "+fecha+" **** "+hora;
+				}
+			}
+	</pre>
+</div>
+<div id="bg1">
+	hola
+</div>
+</body>
+</html>
