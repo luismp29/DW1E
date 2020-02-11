@@ -1,0 +1,3 @@
+p1, np1, dp1
+p2, np2, dp2
+p3, np3, dp3
